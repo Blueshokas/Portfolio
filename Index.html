@@ -2,9 +2,18 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Mon premier site</title>
+    <title>Accueil</title>
+    <link rel="stylesheet" href="CSS/style.css">
     </head>
+     <nav>
+    <a href="Index.html" style="color: white;">Accueil</a> |
+    <a href="stage.html" style="color: white;">Page Stage</a> |
+    <a href="projet.html" style="color: white;">Page Projet</a> |
+    <a href="veille.html" style="color: white;">Page Veille informatique</a> |
+    <a href="contact.html" style="color: white;">Page Contact</a> |
+</nav>
     <body>
+        <hr>
         <style>
         body {
             background-color: #1A1A1A;
@@ -12,8 +21,8 @@
         }
         </style>
         <h1>Bienvenue sur mon site web</h1>
-        <p>Ceci est mon première paragraphe en HTML.</p>
-        <a href="https://github.com/Blueshokas">Visitez mon GitHub</a>
+        <p>Nicolas NOPPE</p>
+       <a href="https://github.com/Blueshokas"class="center-link" target="_blank"><img src="IMG/Github.png" alt="Photo github"></a>
         <hr>
         <h2>Mes compétences :</h2>
         <ul>
@@ -21,9 +30,16 @@
             <li>CSS</li>
             <li>Python</li>
         </ul>
-        <img src="IMG/unnamed.jpg"width=20% height=1%  alt="Photo de profil">
-        <img src="IMG/CV.png"width=20% height=1%  alt="CV">
-        <footer>
+        <br>
+        <h2>Mon CV :</h2>
+        <img src="IMG/CV.png"width=20% height=1%  alt="CV" style="display: block; margin: 10px auto;">
+        <br>
+        <div style="text-align: center;">
+    <a href="CV/CVNicolas.pdf" target="_blank">
+    <button>Voir mon CV</button>
+</a>
+</div>
+ <footer>
             <p>©2025 - Mon Portfolio</p>
         </footer>
     </body>
