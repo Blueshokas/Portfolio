@@ -1,0 +1,56 @@
+
+h1 {
+    font-family: 'Arial', sans-serif; 
+    text-align: center;
+    text-size-adjust: 200%;
+}
+.center-link {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    size: 10%;
+}   
+.center-link img {
+    width: 80px;
+    height: auto;
+    display: inline-block;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #888;
+}
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+p {
+    font-family: 'Arial', sans-serif; 
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: 800; 
+}
+
+h2 {
+    font-family: 'Arial', sans-serif; 
+    text-align: center;
+    font-size: 1.2em;
+    
+    
+}
+li {
+    text-align: center;
+    line-height: 2;
+    list-style: none;
+}
+button {
+    color: white;
+    background-color: #1f1f1f;
+
+}
+h3 {
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+    margin-left: 25px;
+}
